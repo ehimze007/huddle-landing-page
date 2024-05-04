@@ -5,10 +5,8 @@
 body {
   margin: 0;
   font-family: "Poppins";
-  font-size: 18px;
+  font-size: 1em;
 }
-
-/* Font Styling*/
 
 /* Styling for the header and its children*/
 header {
@@ -24,7 +22,7 @@ nav {
 }
 
 .huddle-header {
-  min-width: 100px;
+  width: 20vw;
   height: auto;
 }
 
@@ -32,10 +30,10 @@ nav {
   background-color: white;
   border-radius: 25px;
   border: solid 1px hsl(193, 100%, 96%);
-  padding: 1em 5em;
+  padding: 1% 5%;
   font-weight: 600;
   box-shadow: 0px 0px 4px 0.01px hsl(208, 11%, 55%);
-  font-size: 18px;
+  font-size: 1em;
   white-space: nowrap;
 }
 
@@ -88,14 +86,14 @@ main img {
 }
 
 .ready-to-build {
-  width: 50%;
+  width: 54%;
   box-shadow: 0px 0px 4px 0.01px hsl(208, 11%, 55%);
   position: relative;
   margin: auto;
-  margin-bottom: -60px;
+  margin-bottom: -100px;
   text-align: center;
   border-radius: 8px;
-  padding: 2%;
+  padding: 6%;
   background-color: white;
 }
 
@@ -103,7 +101,6 @@ main img {
   padding: 3% 8%;
   border-radius: 25px;
   border: none;
-  /* width: 24vw; */
   color: white;
   font-weight: 600;
   box-shadow: 0px 0px 4px 0.01px hsl(208, 11%, 55%);
@@ -115,10 +112,11 @@ main img {
 footer {
   background-color: hsl(192, 100%, 9%);
   color: white;
-  padding: 8% 8% 2px;
+  padding: 10em 8% 2px;
   margin-top: 10px;
   list-style-type: none;
   font-family: "Open Sans";
+  text-align: left;
 }
 
 footer section {
@@ -146,9 +144,13 @@ footer section {
   gap: 20px;
 }
 
-.huddle-address img {
-  height: 20px;
+.img-icon {
   width: 20px;
+  height: 20px;
+}
+
+.footer-item-container {
+  margin-top: 20px;
 }
 
 .social-media-icons {
@@ -158,6 +160,13 @@ footer section {
 .copyright-text {
   text-align: end;
 }
+
+.sm-icons {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+}
+
 /************** Attribution **************/
 .attribution {
   font-size: 11px;
@@ -165,4 +174,11 @@ footer section {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 700px) {
+  .ready-to-build {
+    width: 70%;
+    margin-bottom: -10%;
+  }
 }
