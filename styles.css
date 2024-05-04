@@ -176,9 +176,14 @@ footer section {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 1000px) {
   .ready-to-build {
-    width: 70%;
+    width: 90%;
     margin-bottom: -10%;
   }
+}
+
+button:hover {
+  background-color: hsl(228, 45%, 44%);
+  box-shadow: inset;
 }
