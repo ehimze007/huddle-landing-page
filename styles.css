@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+  font-size: 18px;
+}
+
+/* Font Styling*/
+
+/* Styling for the header and its children*/
+header {
+  background-color: hsl(193, 100%, 96%);
+  padding: 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+  padding-bottom: 4rem;
+}
+
+.huddle-header {
+  min-width: 100px;
+  height: auto;
+}
+
+.nav-button {
+  background-color: white;
+  border-radius: 25px;
+  border: solid 1px hsl(193, 100%, 96%);
+  padding: 1em 5em;
+  font-weight: 600;
+  box-shadow: 0px 0px 4px 0.01px hsl(208, 11%, 55%);
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.community-fans-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: center;
+}
+
+.community-fans-section div {
+  flex: 1 300px;
+  width: 50%;
+}
+.mockup-img {
+  flex: 1 300px;
+  width: 50%;
+}
+
+main {
+  background-color: white;
+  padding: 2em 8% 8em;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2rem;
+}
+
+.main-article {
+  border-radius: 25px;
+  box-shadow: 0px 0px 4px 0.01px hsl(208, 11%, 55%);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6% 8%;
+  gap: 4%;
+  align-items: center;
+}
+
+.main-article2 {
+  flex-direction: row-reverse;
+}
+article div {
+  flex: 1 300px;
+  width: 50%;
+}
+
+main img {
+  flex: 1 300px;
+  width: 50%;
+  height: 300px;
+}
+
+.ready-to-build {
+  width: 50%;
+  box-shadow: 0px 0px 4px 0.01px hsl(208, 11%, 55%);
+  position: relative;
+  margin: auto;
+  margin-bottom: -60px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 2%;
+  background-color: white;
+}
+
+.ready-button {
+  padding: 3% 8%;
+  border-radius: 25px;
+  border: none;
+  /* width: 24vw; */
+  color: white;
+  font-weight: 600;
+  box-shadow: 0px 0px 4px 0.01px hsl(208, 11%, 55%);
+  background-color: hsl(322, 100%, 66%);
+  font-size: 18px;
+}
+/******************* Styling the footer **********************/
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: white;
+  padding: 8% 8% 2px;
+  margin-top: 10px;
+  list-style-type: none;
+  font-family: "Open Sans";
+}
+
+footer section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+}
+
+.footer-item {
+  flex: 1 200px;
+  margin-bottom: 4%;
+}
+
+.ftr-itm1 {
+  flex: 2 300px;
+}
+
+.footer-item li {
+  margin-bottom: 1rem;
+}
+
+.huddle-contact {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.huddle-address img {
+  height: 20px;
+  width: 20px;
+}
+
+.social-media-icons {
+  display: flex;
+}
+
+.copyright-text {
+  text-align: end;
+}
+/************** Attribution **************/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
