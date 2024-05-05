@@ -172,12 +172,18 @@ footer section {
 .sm-icons {
   border: solid 1px white;
   border-radius: 50px;
-  padding: 4px;
+  padding-top: 18px;
+  padding-left: 9px;
+  width: 40px;
+  height: 40px;
   margin: 5px;
-  width: 30px;
-  height: 30px;
 }
-
+.sm-icons:hover {
+  border: 2px solid hsl(322, 100%, 66%);
+  border-radius: 50px;
+  color: hsl(322, 100%, 66%);
+  cursor: pointer;
+}
 /************** Attribution **************/
 .attribution {
   font-size: 11px;
@@ -205,15 +211,10 @@ footer section {
   cursor: pointer;
 }
 
-.sm-icons:hover {
-  border-color: hsl(322, 100%, 66%);
-  background-color: hsl(322, 100%, 66%);
-  cursor: pointer;
-}
-
 .contact-link li {
   display: inline-block;
 }
+
 .contact-link li:hover {
   cursor: pointer;
   font-weight: 600;
