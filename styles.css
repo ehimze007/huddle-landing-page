@@ -198,3 +198,8 @@ footer section {
   box-shadow: 1px 2px 1px 0.01px hsl(208, 11%, 55%);
   cursor: pointer;
 }
+
+.contact-link li:hover {
+  cursor: pointer;
+  font-weight: 600;
+}
