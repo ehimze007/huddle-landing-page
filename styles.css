@@ -67,8 +67,12 @@ main {
   display: flex;
   flex-wrap: wrap;
   padding: 6% 8%;
-  gap: 4%;
+  gap: 14%;
   align-items: center;
+}
+
+.main-article img {
+  height: 300px;
 }
 
 .main-article2 {
@@ -192,14 +196,23 @@ footer section {
   cursor: pointer;
 }
 
-.sm-icons:hover,
 .nav-button:hover {
   background-color: hsl(322, 100%, 66%);
   box-shadow: 1px 2px 1px 0.01px hsl(208, 11%, 55%);
   cursor: pointer;
 }
 
+.sm-icons:hover {
+  border-color: hsl(322, 100%, 66%);
+  background-color: hsl(322, 100%, 66%);
+  cursor: pointer;
+}
+
+.contact-link li {
+  display: inline-block;
+}
 .contact-link li:hover {
   cursor: pointer;
   font-weight: 600;
+  text-decoration: underline;
 }
