@@ -59,7 +59,7 @@ nav {
 
 main {
   background-color: white;
-  padding: 2em 8% 8em;
+  padding: 8em 8% 8em;
   display: flex;
   flex-flow: column nowrap;
   gap: 2rem;
@@ -197,6 +197,9 @@ footer section {
   .ready-to-build {
     width: 90%;
     margin-bottom: -10%;
+  }
+  main {
+    padding: 6em 8%;
   }
 }
 
