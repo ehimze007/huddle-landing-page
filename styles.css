@@ -108,6 +108,7 @@ main img {
 .ready-button {
   padding: 3% 8%;
   border-radius: 25px;
+  margin-top: 20px;
   border: none;
   color: white;
   font-weight: 600;
@@ -220,6 +221,6 @@ footer section {
 
 .contact-link li:hover {
   cursor: pointer;
-  font-weight: 600;
+  /* font-weight: 600; */
   text-decoration: underline;
 }
